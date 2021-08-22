@@ -8,9 +8,10 @@
     source venv/bin/activate
 ### 3. pip upgrade
     pip install --upgrade pip
-### 4. jupyter lab install & 起動
+### 4. 各種 labrary install & 起動
     pip install jupyterlab
-
-    # jupyter lab 立ち上げ
+    pip install numpy
+    pip install matplotlib
+    pip install opencv-python
+### 6. jupyter lab 立ち上げ
     jupyter lab
-### 6. jupyter lab 内のファイルで
