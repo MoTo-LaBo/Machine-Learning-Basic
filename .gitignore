@@ -32,6 +32,7 @@ jupyterlab_git/labextension
 
 # OSX files
 .DS_Store
+images
 
 data
 requirements_bk.txt
