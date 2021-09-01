@@ -32,8 +32,11 @@ jupyterlab_git/labextension
 
 # OSX files
 .DS_Store
-images
 
+# project
 data
-requirements_bk.txt
-uninstall.txt
+images
+snd01.wav
+snd02.wav
+voiceMono.wav
+voiceStereo.wav
