@@ -21,7 +21,8 @@
 - 本格的な AI(人工知能)・機械学習の program を自分自身で組むための知識基盤
 ### **使用するソフトウェア**
 - python 3 pyenv (version切り替え)
-  - venv (virtual env:仮想環境)
+- Docker を使用した環境構築
+  - ANACONDA, Jupyterlab, ubuntu, docker
 - Jupyter Lab
 - library
   - 数値計算　　Numpy　(data処理の基本機能)
@@ -29,7 +30,19 @@
   - 画像処理　　OpenCV　(画像の入出力と前処理)
   - 音声data　　wave　(サウンドfileの取り扱い)
   - file入出力　　os, pathlib　(file取り扱い)
-##  環境構築
+# scikit learn basic
+- scikit-learnによる機械学習ライブラリの利用
+  - numpy
+  - matplotlibによるデータの可視化
+  - pandasによるデータの前処理
+  - 基本統計量のプログラミング
+## 機械学習
+- k-means法
+- PCAによる時限削減
+- 線形回帰（単回帰分析・重回帰分析）
+- SVM（サポート・ベクトル・マシン）
+- ランダムフォレストによる分類
+# 環境構築
 ### <u>1. Dockerfile build で docker image を作成</u>
     docker build .<directory>
 - .(ドット)はカレントdirectory ※ 基本は Dockerfile のある directory に移動して docker build を使用するので、$ `docker build .< directory >` の形で覚えておく
