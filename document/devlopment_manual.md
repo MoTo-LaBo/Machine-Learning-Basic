@@ -1,17 +1,16 @@
-# Python Machine Learning
+### 1. image 一覧表示
+    docker images
+### 2. container 一覧表示
+    docker ps -a
+### 3. 使用したい image が up かどうか status 確認
+    # up でない場合は下記のコマンド実行
+    docker restart < container名 >
+### 4. image がなければ Docker image から container を起動
+    docker run -v ~/filepath/buildcontext:/work -p <portは個人で指定>:8888 --name kame-env < images ID >
+### 5. container を止める
+    dockre stop < container名・ID >
+### 6. container 削除
+    docker rm < container名・ID >
+### 7. docker image を削除する
+    docker rmi <image>
 
-## 1. 環境構築と初期設定
-- 仮想環境 venv と .gitignore 作成
-### 1. 仮想環境構築
-    python3 -m venv venv
-### 2. 仮想環境を立ち上げる
-    source venv/bin/activate
-### 3. pip upgrade
-    pip install --upgrade pip
-### 4. 各種 labrary install & 起動
-    pip install jupyterlab
-    pip install numpy
-    pip install matplotlib
-    pip install opencv-python
-### 6. jupyter lab 立ち上げ
-    jupyter lab
