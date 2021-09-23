@@ -15,7 +15,11 @@
 - dataの入出力
   - file の読み込みと保存(CSV)
   - folder(directory)の内容の一括処理
-### <u>sciket-learn, Keras, PyTorch, etc...</u>
+- scikit-learn
+- AI の為の数学
+- Kaggle
+- 統計学
+### <u>scikit-learn, Keras, PyTorch, etc...</u>
 - 上記の library を扱うための基礎を固める
 - 基盤知識・前提知識を固める事を前提
 - 本格的な AI(人工知能)・機械学習の program を自分自身で組むための知識基盤
@@ -25,11 +29,13 @@
   - ANACONDA, Jupyterlab, ubuntu, docker
 - Jupyter Lab
 - library
-  - 数値計算　　Numpy　(data処理の基本機能)
-  - 可視化　　　matplotlib　(各種のグラフ作成)
-  - 画像処理　　OpenCV　(画像の入出力と前処理)
-  - 音声data　　wave　(サウンドfileの取り扱い)
-  - file入出力　　os, pathlib　(file取り扱い)
+  - 数値計算　　Numpy　( data処理の基本機能 )
+  - DF　　　　　pandas ( DataFrame )
+  - 可視化　　　matplotlib　( 各種のグラフ作成 )
+  - 可視化　　　seaborn ( グラフ )
+  - 画像処理　　OpenCV　( 画像の入出力と前処理 )
+  - 音声data　　wave　( サウンドfileの取り扱い )
+  - file入出力　　os, pathlib　( file取り扱い )
 ## AIの為の数学
   - *線形代数*
     - スカラー・ベクトル・行列・テンソル
