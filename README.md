@@ -51,6 +51,28 @@
 - 線形回帰（単回帰分析・重回帰分析）
 - SVM（サポート・ベクトル・マシン）
 - ランダムフォレストによる分類
+## Kaggle
+- Kaggle :　data scienceや機械学習エンジニアが集まるオンラインコミュニティ
+  - 経験が少ない方でも取り組みやすいコンペもある
+- data science
+  - データアナリスト・機械学習・統計
+- Pythonicなエンジニア
+  - pythonに精通しているエンジニア
+### <u>どの未来でも *python programing力* と *data science力* が必要</u>
+1. Pythonの基本code
+2. data分析・機械学習の基本知識
+3. Pythonの応用 code
+4. 業界の知識
+5. Pythonの機械学習
+6. 多くの業務経験
+### labrary install & 起動
+    # pandas_profiling 表示の為のcommand
+
+    pip install pandas_profiling
+    pip install ipywidgets jupyterlab matplotlib
+> https://pypi.org/project/pandas-profiling/
+> https://ipywidgets.readthedocs.io/en/stable/user_install.html
+
 # 環境構築
 ### <u>1. docker build する</u>
     docker build -t ai:latest .

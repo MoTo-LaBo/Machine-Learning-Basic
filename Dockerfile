@@ -28,7 +28,9 @@ RUN pip install --upgrade pip && \
     pip install seaborn && \
     pip install opencv-python && \
     pip install scikit-image && \
-    pip install jedi
+    pip install jedi && \
+    pip install pandas_profiling && \
+    pip install ipywidgets jupyterlab matplotlib
 
 WORKDIR /
 RUN mkdir /work
