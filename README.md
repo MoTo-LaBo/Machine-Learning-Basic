@@ -58,19 +58,13 @@
 - SVM（サポート・ベクトル・マシン）
 - ランダムフォレストによる分類
 ## Kaggle
-- Kaggle :　data scienceや機械学習エンジニアが集まるオンラインコミュニティ
-  - 経験が少ない方でも取り組みやすいコンペもある
-- data science
-  - データアナリスト・機械学習・統計
-- Pythonicなエンジニア
-  - pythonに精通しているエンジニア
-### <u>どの未来でも *python programing力* と *data science力* が必要</u>
+### Titanic - Machine Learning from Disaster
+<u>機械学習を使用して、タイタニック号の難破船を生き延びた乗客を予測するモデルを作成</u>
+- data science・機械学習・統計
 1. Pythonの基本code
 2. data分析・機械学習の基本知識
 3. Pythonの応用 code
-4. 業界の知識
-5. Pythonの機械学習
-6. 多くの業務経験
+4. Pythonの機械学習
 ### labrary install & 起動
     # pandas_profiling 表示の為のcommand
 
