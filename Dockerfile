@@ -27,7 +27,7 @@ RUN pip install --upgrade pip && \
     pip install matplotlib && \
     pip install seaborn && \
     pip install opencv-python && \
-    pip install scikit_learn && \
+    pip install -U scikit-learn && \
     pip install scikit-image && \
     pip install jedi && \
     pip install pandas_profiling && \
