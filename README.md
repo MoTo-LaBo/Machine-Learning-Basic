@@ -45,9 +45,11 @@
     - データ傾向・確率としての捉え方
 ###
 ## scikit learn basic
+> https://scikit-learn.org/stable/index.html
 - scikit-learnによる機械学習ライブラリの利用
   - numpy
   - matplotlibによるデータの可視化
+    - seaborn
   - pandasによるデータの前処理
   - 基本統計量のプログラミング
 ### 機械学習
