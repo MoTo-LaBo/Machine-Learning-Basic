@@ -28,4 +28,6 @@
     docker rm < container名・ID >
 ### 7. docker image を削除する
     docker rmi <image>
-
+## 3D (３次元plot)
+> https://github.com/matplotlib/ipympl
+> https://sabopy.com/py/ipywidgets-19/

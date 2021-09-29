@@ -31,6 +31,9 @@ RUN pip install --upgrade pip && \
     pip install scikit-image && \
     pip install jedi && \
     pip install ipython && \
+    pip install nodejs && \
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager && \
+    jupyter labextension install jupyter-matplotlib && \
     pip install pandas_profiling && \
     pip install ipywidgets jupyterlab matplotlib
 
