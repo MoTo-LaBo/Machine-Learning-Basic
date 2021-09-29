@@ -30,4 +30,8 @@
     docker rmi <image>
 ## 3D (３次元plot)
 > https://github.com/matplotlib/ipympl
-> https://sabopy.com/py/ipywidgets-19/
+### 1. pip install
+    pip install ipympl
+### 2 jupyter
+    %matplotlib widget
+- 先頭行に Jupyter magic command を使用するこで Interactive な描画ができる
