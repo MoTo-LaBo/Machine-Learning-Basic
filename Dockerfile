@@ -30,6 +30,7 @@ RUN pip install --upgrade pip && \
     pip install -U scikit-learn && \
     pip install scikit-image && \
     pip install jedi && \
+    pip install ipython && \
     pip install pandas_profiling && \
     pip install ipywidgets jupyterlab matplotlib
 
