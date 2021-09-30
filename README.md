@@ -29,6 +29,7 @@
 - Jupyter Lab
 - library
   - 数値計算　　Numpy　( data処理の基本機能 )
+  - 数値計算　　Sicpy　( 数値計算 )
   - DF　　　　　pandas ( DataFrame )
   - 可視化　　　matplotlib　( 各種のグラフ作成 )
   - 可視化　　　seaborn ( グラフ )
@@ -43,7 +44,16 @@
   - *確率・統計*
     - 標準偏差・正規分布・尤度
     - データ傾向・確率としての捉え方
-###
+## Data analysis
+- <u>データ分析演習（実際の研究開発で使いそうなファイルを用いた演習）</u>
+
+  - Excelの実験データを読み込み、回帰直線の算出・Graph作成
+
+  - スペクトルのフィッティングや数値積分
+
+  - センサーなどが出力するtxtファイルからのデータの抽出、データ分析
+
+  - 実験データとSIMデータの比較。SIMデータの決定係数算出
 ## scikit learn basic
 > https://scikit-learn.org/stable/index.html
 - scikit-learnによる機械学習ライブラリの利用
