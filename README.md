@@ -47,15 +47,18 @@
   - *単回帰分析*
   - *重回帰分析*
 ### labrary install (docker + pip)
-    pip install lckr-jupyterlab-variableinspector
-
+    # variableinspector
     pip install ipywidgets
 
-    jupyter labextension install @jupyter-widgets/jupyterlab-manager
+    pip install lckr-jupyterlab-variableinspector
+
+    # glaph 日本語対応
+    pip install japanize-matplotlib
 - *Jupyter Labと拡張機能 install・有効化*
   - 「jupyterlab_variableinspector」( 変数エクスプローラとなる機能)
 > https://github.com/lckr/jupyterlab-variableInspector
 > https://insilico-notebook.com/jupyter-lab-setting/#
+> https://pypi.org/project/japanize-matplotlib/
 ## Data analysis
 - <u>データ分析演習（実際の研究開発で使いそうなファイルを用いた演習）</u>
 
