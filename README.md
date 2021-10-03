@@ -51,6 +51,7 @@
 - *Jupyter Labと拡張機能 install・有効化*
   - 「jupyterlab_variableinspector」( 変数エクスプローラとなる機能)
 > https://github.com/lckr/jupyterlab-variableInspector
+> https://insilico-notebook.com/jupyter-lab-setting/#
 ## Data analysis
 - <u>データ分析演習（実際の研究開発で使いそうなファイルを用いた演習）</u>
 
