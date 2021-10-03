@@ -22,6 +22,7 @@ ENV PATH /opt/anaconda3/bin:$PATH
 # update pip and install packages
 RUN pip install --upgrade pip && \
     pip install jupyterlab && \
+    pip install tbump && \
     pip install numpy && \
     pip install pandas && \
     pip install matplotlib && \
