@@ -36,7 +36,7 @@
   - 画像処理　　OpenCV　( 画像の入出力と前処理 )
   - 音声data　　wave　( サウンドfileの取り扱い )
   - file入出力　　os, pathlib　( file取り扱い )
-## AIの為の数学
+## 機械学習
   - *線形代数*
     - スカラー・ベクトル・行列・テンソル
   - *微分*
@@ -44,6 +44,21 @@
   - *確率・統計*
     - 標準偏差・正規分布・尤度
     - データ傾向・確率としての捉え方
+  - *単回帰分析*
+  - *重回帰分析*
+### labrary install (docker + pip)
+    # variableinspector
+    pip install ipywidgets
+
+    pip install lckr-jupyterlab-variableinspector
+
+    # glaph 日本語対応
+    pip install japanize-matplotlib
+- *Jupyter Labと拡張機能 install・有効化*
+  - 「jupyterlab_variableinspector」( 変数エクスプローラとなる機能)
+> https://github.com/lckr/jupyterlab-variableInspector
+> https://insilico-notebook.com/jupyter-lab-setting/#
+> https://pypi.org/project/japanize-matplotlib/
 ## Data analysis
 - <u>データ分析演習（実際の研究開発で使いそうなファイルを用いた演習）</u>
 
@@ -54,6 +69,13 @@
   - センサーなどが出力するtxtファイルからのデータの抽出、データ分析
 
   - 実験データとSIMデータの比較。SIMデータの決定係数算出
+### 3D (３次元plot)
+> https://github.com/matplotlib/ipympl
+### 1. pip install
+    pip install ipympl
+### 2 jupyter
+    %matplotlib widget
+- 先頭行に Jupyter magic command を使用するこで Interactive な描画ができる
 ## scikit learn basic
 > https://scikit-learn.org/stable/index.html
 - scikit-learnによる機械学習ライブラリの利用
@@ -78,8 +100,8 @@
 4. Pythonの機械学習
 ### labrary install & 起動
     # pandas_profiling 表示の為のcommand
-
     pip install pandas_profiling
+
     pip install ipywidgets jupyterlab matplotlib
 > https://pypi.org/project/pandas-profiling/
 > https://ipywidgets.readthedocs.io/en/stable/user_install.html

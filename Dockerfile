@@ -26,15 +26,17 @@ RUN pip install --upgrade pip && \
     pip install numpy && \
     pip install pandas && \
     pip install matplotlib && \
+    pip install japanize-matplotlib && \
     pip install seaborn && \
     pip install opencv-python && \
     pip install -U scikit-learn && \
-    pip install scikit-image && \
     pip install jedi && \
     pip install ipython && \
     pip install ipympl && \
+    pip install ipywidgets && \
     pip install pandas_profiling && \
-    pip install ipywidgets jupyterlab matplotlib
+    pip install ipywidgets jupyterlab matplotlib && \
+    pip install lckr-jupyterlab-variableinspector
 
 WORKDIR /
 RUN mkdir /work
