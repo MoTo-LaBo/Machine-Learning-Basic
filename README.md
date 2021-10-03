@@ -48,6 +48,10 @@
   - *重回帰分析*
 ### labrary install (docker + pip)
     pip install lckr-jupyterlab-variableinspector
+
+    pip install ipywidgets
+
+    jupyter labextension install @jupyter-widgets/jupyterlab-manager
 - *Jupyter Labと拡張機能 install・有効化*
   - 「jupyterlab_variableinspector」( 変数エクスプローラとなる機能)
 > https://github.com/lckr/jupyterlab-variableInspector
@@ -93,8 +97,8 @@
 4. Pythonの機械学習
 ### labrary install & 起動
     # pandas_profiling 表示の為のcommand
-
     pip install pandas_profiling
+
     pip install ipywidgets jupyterlab matplotlib
 > https://pypi.org/project/pandas-profiling/
 > https://ipywidgets.readthedocs.io/en/stable/user_install.html

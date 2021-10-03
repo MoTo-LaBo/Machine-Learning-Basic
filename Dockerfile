@@ -32,6 +32,7 @@ RUN pip install --upgrade pip && \
     pip install jedi && \
     pip install ipython && \
     pip install ipympl && \
+    pip install ipywidgets && \
     pip install pandas_profiling && \
     pip install ipywidgets jupyterlab matplotlib && \
     pip install lckr-jupyterlab-variableinspector
