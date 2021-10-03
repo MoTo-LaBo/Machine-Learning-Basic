@@ -28,10 +28,4 @@
     docker rm < container名・ID >
 ### 7. docker image を削除する
     docker rmi <image>
-## 3D (３次元plot)
-> https://github.com/matplotlib/ipympl
-### 1. pip install
-    pip install ipympl
-### 2 jupyter
-    %matplotlib widget
-- 先頭行に Jupyter magic command を使用するこで Interactive な描画ができる
+
