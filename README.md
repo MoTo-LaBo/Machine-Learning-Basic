@@ -30,6 +30,7 @@
 - library
   - 数値計算　　Numpy　( data処理の基本機能 )
   - 数値計算　　Sicpy　( 数値計算 )
+  - 代数計算　　Sympy　( 代数計算 )
   - DF　　　　　pandas ( DataFrame )
   - 可視化　　　matplotlib　( 各種のグラフ作成 )
   - 可視化　　　seaborn ( グラフ )
