@@ -30,6 +30,9 @@ node_modules/
 *.tsbuildinfo
 jupyterlab_git/labextension
 
+# docker & vscode & jupyter
+.devcontainer
+
 # OSX files
 .DS_Store
 
