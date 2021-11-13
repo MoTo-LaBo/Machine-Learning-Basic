@@ -30,6 +30,11 @@ RUN pip install --upgrade pip && \
     pip install seaborn && \
     pip install opencv-python && \
     pip install -U scikit-learn && \
+    pip install Pillow && \
+    pip install graphviz && \
+    pip install scipy && \
+    pip install -U pip setuptools wheel && \
+    pip install -U spacy && \
     pip install jedi && \
     pip install ipython && \
     pip install ipympl && \
